@@ -1,0 +1,259 @@
+
+<html>
+<head>
+<title>SPBU Surabaya</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+	<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+					items : 4,
+					lazyLoad : true,
+					autoPlay : true,
+					navigation : true,
+					navigationText : ["", ""],
+					rewindNav : false,
+					scrollPerPage : false,
+					pagination : false,
+					paginationNumbers : false,
+				});
+			});
+		</script>
+		<!-- //Owl Carousel Assets -->
+		<!-----768px-menu----->
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!-----//768px-menu----->
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html">
+			<h1>CariSPBU.com</h1>
+				</a></div>
+		<div class="clear"> </div>
+	</div>
+</div>
+</div>
+<!-- start header -->
+<div class="header_btm">
+	<div class="wrap">
+		<!------start-768px-menu---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li class="active"><a href="index.html">Beranda</a></li>
+							<li><a href="TentangWebsite.html">Tentang Website</a></li>
+							<li><a href="Layanan.html">Layanan</a></li>
+							<li><a href="Pencarian.html">Pencarian</a></li>
+							<li><a href="HubungiKami.html">Hubungi Kami</a></li>
+						</ul>
+					</nav>
+			</div>
+		<!------start-768px-menu---->
+			<div class="header_sub">
+				<div class="h_menu">
+					<ul>
+						<li class="active"><a href="index.html">Beranda</a></li>
+						<li><a href="TentangWebsite.html">Tentang Website</a></li>
+						<li><a href="Layanan.html">Layanan</a></li>
+						<li><a href="Pencarian.html">Pencarian</a></li>
+						<li><a href="HubungiKami.html">Hubungi Kami</a></li>
+					</ul>
+				</div>
+				<div class="h_search">
+		    		<form>
+		    			<input type="text" value="" placeholder="search something...">
+		    			<input type="submit" value="">
+		    		</form>
+				</div>
+				<div class="clear"> </div>
+			</div>
+	</div>
+</div>
+			<!---start-banner---->
+			<div class="banner" id="move-top">
+				<!----start-image-slider---->
+					<div data-scroll-reveal="enter bottom but wait 0.7s" class="img-slider" id="home">
+						<div class="wrap">
+							<div class="slider">
+								<ul id="jquery-demo">
+								  <li>
+								    <a href="#slide1">
+								    </a>
+								    <div data-scroll-reveal="enter bottom but wait 0.7s" class="slider-detils">
+								    	<h3>Pengisian Bahan Bakar Minyak</h3>
+								    	<span>Memberikan kemudahan mencari pengisian BBM terdekat dengan lokasi Anda.</span>
+								    </div>
+								  </li>
+								  <li>
+								    <a href="#slide2">
+								    </a>
+								      <div data-scroll-reveal="enter bottom but wait 1s" class="slider-detils">
+								    	<h3>Pompa BAN Nitrogen </h3>
+								    	<span>Menyediakan pompa BAN Nitorgen untuk pengisian angin</span>
+								    	</div>
+								  </li>
+								  <li>
+								    <a href="#slide3">
+								    </a>
+								      <div data-scroll-reveal="enter bottom but wait 1.5s" class="slider-detils">
+								      	<h3>ATM</h3>
+								    	<span>Menyediakan ATM yang dapat digunakan untuk menarik uang tunai.</span>
+								    </div>
+								  </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+						<!---slider---->
+				<link rel="stylesheet" href="css/slippry.css">
+				<script src="js/jquery-ui.js" type="text/javascript"></script>
+				<script src="js/scripts-f0e4e0c2.js" type="text/javascript"></script>
+				<script>
+					  jQuery('#jquery-demo').slippry({
+					  // general elements & wrapper
+					  slippryWrapper: '<div class="sy-box jquery-demo" />', // wrapper to wrap everything, including pager
+					  // options
+					  adaptiveHeight: false, // height of the sliders adapts to current slide
+					  useCSS: false, // true, false -> fallback to js if no browser support
+					  autoHover: false,
+					  transition: 'fade'
+					});
+				</script>
+				<!---scrooling-script--->
+					<!----//End-image-slider---->
+					<div class="simple-text">
+						<div class="wrap">
+							<h4>Selamat Datang di Website CariSPBU.com </h4>
+							<p>Station Pengisian Bahan Bakar Umum atau yang lebih dikenal dengan SBPU merupakan tempat untuk melakukan pengisian bahan bakar kendaraan. Perusahaan penyediaan bahan bakar milik pemerintah, PERTAMINA, memiliki banyak sekali SPBU terutama di daerah Surabaya untuk memenuhi kebutuhan pengguna kendaraan Surabaya. Pendatang baru di Surabaya sering mengalami kesulitan untuk mencari SPBU terutama  SPBU terdekat dengan lokasi berada. Website CariSPBU.com menyediakan informasi lokasi SPBU untuk membantu masyarakat mencari lokasi SPBU terdekat lokasi berada. </p>
+						</div>
+					</div>
+			<div class="Recent-wroks"><!-- start services -->
+				<div class="wrap">
+				<div class="Recent-wrok">
+					<h5 class="heading">Produk SPBU</h5>
+					<!----start-img-cursual---->
+					<div id="owl-demo" class="owl-carousel">
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="gambar/premium.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="gambar/premium.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Premium</a></h4>
+								<p>
+									Premium digunakan untuk bahan bakar kendaraan bermotor bermesin bensin, seperti mobil, sepeda motor, motor tempel dan lain-lain.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="gambar/pertamax.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="gambar/pertamax.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Pertamax</a></h4>
+								<p>
+									Pertamax merupakan bahan bakar yang ramah lingkungan dengan menggunakan formula baru yang berkualitas tinggi, memastikan mesin kendaraan bermotor bekerja lebih baik, lebih bertenaga, knock free, rendah emisi, dan menghemat pemakaian bahan bakar.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="gambar/pertamaxplus.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="gambar/pertamaxplus.png" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Pertamax Plus</a></h4>
+								<p>
+									Pertamax Plus merupakan bahan bakar yang mengandung energi tinggi, menggunakan bahan baku berkualitas dan ramah lingkungan. Pertamax Plus cocok digunakan untuk kendaraan berteknologi mutakhir.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="gambar/pertaminadex.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="gambar/pertaminadex.png" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Pertamina Dex</a></h4>
+								<p>
+									Pertamax Dex digunakan untuk bahan bakar medin diesel agar pemakaian bahan bakar lebih erit dan ekonomis serta menghasilkan tenaga yang besar.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="cau_left">
+								<div id="nivo-lightbox-demo"> <p> <a href="gambar/biosolar.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover"> </span></a> </p></div>
+								<img src="gambar/biosolar.jpg" >
+							</div>
+							<div class="cau_left">
+								<h4><a href="#">Bio Solar</a></h4>
+								<p>
+									Bahan bakar campuran dari solar dan minyak nabati untuk mesin diesel.
+								</p>
+							</div>
+						</div>
+					<!----//End-img-cursual---->
+				</div>
+				 <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+				});
+				</script>
+
+				</div>
+			</div>
+			<div class="last_posts"><!-- start recommended_SPBU-->
+				<div class="wrap">
+					<h5 class="heading">Rekomendasi SPBU</h5>
+					<div class="l-grids">
+						<div class="l-grid-1">
+							<div class="desc">
+								<h3>SPBU Terbesar</h3>
+								<span>SPBU 51.601.65</span>
+								<p>SPBU ini berlokasi di Jl. Raya Jemursari No. 113-123. SPBU ini merupakan SPBU terbedar di Surabaya Timur. Anda tidak perlu mengantri karena banyak station pengisian yang dapat melayani Anda.</p>
+							</div>
+							<img src="gambar/terbesar.jpg">	
+							<div class="clear"> </div>
+						</div>
+						<div class="l-grid-1 l-grid-2">
+							<div class="desc">
+								<h3>SPBU Terbersih</h3>
+								<span>SPBU 51.601.66</span>
+								<p>SPBU ini berlokasi di Jl Dupak No. 15. SPBU ini tidak cukup besar. Namun, SPBU ini sangat bersih sehingga sangat nyaman untuk melakukan pengisian. Fasilitas toilet di SPBU ini juga bersih.</p>
+							</div>
+							<img src="gambar/terbersih.jpg">	
+							<div class="clear"> </div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+			</div>
+   			<div class="copy">
+				       <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+			  </div>
+</body>
+</html>
